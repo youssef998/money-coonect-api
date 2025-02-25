@@ -27,7 +27,7 @@ connect-money/
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/yourusername/connect-money.git
+git clone https://github.com/youssef998/connect-money.git
 cd connect-money
 ```
 
