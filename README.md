@@ -58,6 +58,8 @@ expo start
 - **POST /transactions/deposit** - Deposit money
 - **GET /transactions** - Get transaction history
 
+## What is the JWT used for in this project? 🔐
+JWT (JSON Web Token) is used for user authentication in your project. When a user logs in, the backend generates a JWT and sends it back to the frontend. The frontend stores this toke in AsyncStorage and includes it in the Authorization header (Bearer <token>) for every request that requires authentication
 ## Troubleshooting
 - **Database connection refused?** Ensure PostgreSQL is running and credentials in `.env` match.
 - **Expo errors?** Try running `expo start -c` to clear cache.
